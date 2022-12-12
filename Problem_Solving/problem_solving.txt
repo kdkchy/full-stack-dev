@@ -1,7 +1,12 @@
 1.	Anggaplah anda sedang menangani sebuah aplikasi, 
 kemudian terjadi sebuah masalah dimana ketika ada 100 request sekaligus ke aplikasi anda yang menyebabkan aplikasi anda crash / hang. 
 Jelaskan bagaimana anda mengatasi situasi ini?
-- 
+- perlunya pemasangan rate limiter pada backend 
+- gunakan load balancer 
+- cache data yang paling sering diakases pada memory
+- memilih server yang relatif cepat
 
 2.	Bagaimanakah cara anda mengatasi Race Condition pada aplikasi anda? Jelaskan beserta contohnya. 
-- 
+- gunakan teknik atomic lock, yang dimana proses dilakukan sebagai 1 kesatuan, yang dimana proses lain harus menunggu terlebih dahulu setelah proses 1 selesai bekerja.
+- salah 1 contoh yaitu Atomic Lock yang dimiliki oleh Laravel yang dimana proses akan dikerjakan 1 persatu
+- selain itu JS juga memiliki hal ini yaitu dengan cara Async Await, yang dimana proses akan dikerjakan 1 per satu

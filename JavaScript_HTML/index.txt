@@ -1,0 +1,5 @@
+https://jsfiddle.net/kdkchy/gx4for9t/164/
+
+
+// kesulitan dalam mengakses api https://dummy.restapiexample.com/api/v1/employees
+// dengan menggunaakan fetch()
