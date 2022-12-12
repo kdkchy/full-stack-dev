@@ -1,0 +1,20 @@
+1. 
+SELECT 
+	DAYNAME(DATE) AS 'day', 
+	SUM(score > 0) AS num_pos_scores, 
+	SUM(score < 0) AS num_neg_scores 
+FROM 
+	assessments 
+WHERE 
+	date BETWEEN '2011-03-01' AND '2011-04-30'
+GROUP BY 
+	day;
+
+2. 
+SELECT 
+	* 
+FROM 
+	assessments 
+WHERE 
+	score > 0 
+AND date BETWEEN '2011-01-01' AND '2011-06-30';

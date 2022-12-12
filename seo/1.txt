@@ -1,0 +1,8 @@
+1.	Bagaimana menurut anda kondisi SEO dari website tersebut?
+sudah cukup baik, karena sudah menggunakan tag meta yang dimana menjelesakan kepada mesain pencari tentang isi dari konten web
+
+2.	Apakah hal-hal yang bisa anda improve dari website tersebut agar dapat memaksimalkan SEO nya?
+- gunakan tag HTML yang bukan hanya div, melainkan gunakanlah element semantik agar element tersebut menyatakan tujuan dari element itu sendiri
+
+3.	Apakah yang bisa anda lakukan untuk mempercepat load dari halaman website tersebut?
+- Gunakan gambar dengan extensi khusus untuk web untuk meringankan konsumsi data, agar load page jadi lebih cepat
